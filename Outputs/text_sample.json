@@ -1,0 +1,107 @@
+{
+  "engine": "text",
+  "created_at": "2026-05-01T10:24:17",
+  "complete_result": {
+    "input_type": "text",
+    "extracted_text": "audio transcription we are following breaking news this are. indias financial sector is in crisis as a major banking outage has left millions unable to access their funds. visual text ocr simulatednotreal bankingoutage wlgriolock news finarated minity yeut tor condted onatt atsz onlie trasemation system detcition faistems banikingoutage algridlock finarated minity yeut tor condted on att atr m onlie trasemation system detcition faistems rated miniity yeut tor condated on att atrum onlle trasemation system detcition faistems anicingoutage miniity yeut tor condted on att atevm onlle trasemation system detoition faistems baniingoutage yyeut tor condted on att atszm onlle trasemation system detoition faistems tor condaed on att atstm anlie trasemation system detaition fastems simulatednotreai nkgingoutage ondaed on att atstm anlle trasemationsystem detoition faystems not real.",
+    "comprehensive_query": "India financial sector crisis major banking outage millions unable access funds online transaction system",
+    "source_analysis": [
+      {
+        "name": "NewsAPI",
+        "status": "NOT FOUND",
+        "count": 0,
+        "detail": null
+      },
+      {
+        "name": "GNews",
+        "status": "NOT FOUND",
+        "count": 0,
+        "detail": null
+      },
+      {
+        "name": "MultipleFeed",
+        "status": "NOT FOUND",
+        "count": 0,
+        "detail": []
+      },
+      {
+        "name": "SERP-Web",
+        "status": "NOT FOUND",
+        "count": 0,
+        "detail": null
+      },
+      {
+        "name": "SERP",
+        "status": "FOUND",
+        "count": 10,
+        "detail": "What caused Amazon’s AWS outage, and why did so many major apps go offline? | https://www.aljazeera.com/news/2025/10/21/what-caused-amazons-aws-outage-and-why-did-so-many-major-apps-go-offline"
+      }
+    ],
+    "metrics": {
+      "source_credibility": 0.16470588235294117,
+      "semantic_consistency": 0.15975667722523212,
+      "claim_strength": 0.8089430894308943,
+      "language_naturalness": 0.9366192405798159,
+      "ai_score": 52.32,
+      "ai_score_scale": "0-100",
+      "ai_score_probability": 0.5232264995574951
+    },
+    "warning": {
+      "suspicious_words": [
+        "breaking"
+      ]
+    },
+    "FACT": "Unverified",
+    "AI": "AI-Generated",
+    "final_score": 0.398,
+    "final_score_out_of_100": 39.8,
+    "LLM_explanation": "1) AI DETECTION ANALYSIS: The text appears to be AI-generated due to its disjointed and repetitive nature, with phrases such as \"finarated minity yeut tor condted onatt\" that do not form coherent sentences.\n2) FACTUAL VALIDATION ANALYSIS: The factual validation of the text is unverified, as there is no concrete evidence to support the claim of a major banking outage in India, and the provided sources do not offer any relevant information.\n3) CONFIDENCE JUSTIFICATION: The confidence in the text's accuracy is low, with a final score of 0.398, indicating that the system is not certain about the validity of the information presented.\n4) SUSPICIOUS PATTERNS: Suspicious patterns are evident in the text, including the repetition of similar phrases and the presence of nonsensical words, which suggests that the text may be a simulated or generated example rather than a genuine news report."
+  },
+  "text": "audio transcription we are following breaking news this are. indias financial sector is in crisis as a major banking outage has left millions unable to access their funds. visual text ocr simulatednotreal bankingoutage wlgriolock news finarated minity yeut tor condted onatt atsz onlie trasemation system detcition faistems banikingoutage algridlock finarated minity yeut tor condted on att atr m onlie trasemation system detcition faistems rated miniity yeut tor condated on att atrum onlle trasemation system detcition faistems anicingoutage miniity yeut tor condted on att atevm onlle trasemation system detoition faistems baniingoutage yyeut tor condted on att atszm onlle trasemation system detoition faistems tor condaed on att atstm anlie trasemation system detaition fastems simulatednotreai nkgingoutage ondaed on att atstm anlle trasemationsystem detoition faystems not real.",
+  "query": "India financial sector crisis major banking outage millions unable access funds online transaction system",
+  "sources": {
+    "NewsAPI": {
+      "count": 0,
+      "detail": null
+    },
+    "GNews": {
+      "count": 0,
+      "detail": null
+    },
+    "MultipleFeed": {
+      "count": 0,
+      "detail": []
+    },
+    "SERP-Web": {
+      "count": 0,
+      "detail": null
+    },
+    "SERP": {
+      "count": 10,
+      "detail": "What caused Amazon’s AWS outage, and why did so many major apps go offline? | https://www.aljazeera.com/news/2025/10/21/what-caused-amazons-aws-outage-and-why-did-so-many-major-apps-go-offline"
+    }
+  },
+  "user_output": {
+    "FACT": "Unverified",
+    "AI": "AI-Generated",
+    "LLM_explanation": "1) AI DETECTION ANALYSIS: The text appears to be AI-generated due to its disjointed and repetitive nature, with phrases such as \"finarated minity yeut tor condted onatt\" that do not form coherent sentences.\n2) FACTUAL VALIDATION ANALYSIS: The factual validation of the text is unverified, as there is no concrete evidence to support the claim of a major banking outage in India, and the provided sources do not offer any relevant information.\n3) CONFIDENCE JUSTIFICATION: The confidence in the text's accuracy is low, with a final score of 0.398, indicating that the system is not certain about the validity of the information presented.\n4) SUSPICIOUS PATTERNS: Suspicious patterns are evident in the text, including the repetition of similar phrases and the presence of nonsensical words, which suggests that the text may be a simulated or generated example rather than a genuine news report."
+  },
+  "metrics": {
+    "source_credibility": 0.16470588235294117,
+    "semantic_consistency": 0.15975667722523212,
+    "claim_strength": 0.8089430894308943,
+    "language_naturalness": 0.9366192405798159,
+    "ai_score": 52.32,
+    "ai_score_scale": "0-100",
+    "ai_score_probability": 0.5232264995574951
+  },
+  "final_score": 0.398,
+  "final_score_out_of_100": 39.8,
+  "fact_label": "Unverified",
+  "ai_label": "AI-Generated",
+  "suspicious_words": [
+    "breaking"
+  ],
+  "explanation": "1) AI DETECTION ANALYSIS: The text appears to be AI-generated due to its disjointed and repetitive nature, with phrases such as \"finarated minity yeut tor condted onatt\" that do not form coherent sentences.\n2) FACTUAL VALIDATION ANALYSIS: The factual validation of the text is unverified, as there is no concrete evidence to support the claim of a major banking outage in India, and the provided sources do not offer any relevant information.\n3) CONFIDENCE JUSTIFICATION: The confidence in the text's accuracy is low, with a final score of 0.398, indicating that the system is not certain about the validity of the information presented.\n4) SUSPICIOUS PATTERNS: Suspicious patterns are evident in the text, including the repetition of similar phrases and the presence of nonsensical words, which suggests that the text may be a simulated or generated example rather than a genuine news report.",
+  "explainability": ""
+}

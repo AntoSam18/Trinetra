@@ -1,0 +1,198 @@
+{
+  "video_name": "DF1",
+  "video_path": "D:\\TRINETRA POC\\data\\DF1.mp4",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-27T17:16:13.095995",
+  "content_type": "MULTI_FACE",
+  "face_detection_rate": 0.9,
+  "sliding_window": {
+    "prediction": "FAKE",
+    "confidence": 0.9521634437143802,
+    "early_exit": true,
+    "processing_time": 5.25,
+    "anomalies": [
+      {
+        "range": [
+          0,
+          40
+        ],
+        "time_range": [
+          0.0,
+          1.33
+        ],
+        "score": 0.9521634437143802,
+        "severity": "CRITICAL"
+      }
+    ],
+    "anomalies_detail": {
+      "count": 1,
+      "anomalies": [
+        {
+          "range": [
+            0,
+            40
+          ],
+          "time_range": [
+            0.0,
+            1.33
+          ],
+          "score": 0.9521634437143802,
+          "severity": "CRITICAL"
+        }
+      ],
+      "summary": "Detected 1 anomalous frame(s)"
+    },
+    "stage": null
+  },
+  "cnn": {
+    "prediction": "FAKE",
+    "confidence": 0.958764836192131,
+    "model": "Xception5o",
+    "grad_cam": {
+      "model_focus": "Model detects generation artifacts including eye unnatural reflections and lighting inconsistencies (95.9% confident this is deepfake)",
+      "processing_time": 2.818760395050049,
+      "visualization_path": null
+    },
+    "stage": {
+      "status": "SUCCESS",
+      "prediction": "FAKE",
+      "confidence": 0.958764836192131,
+      "timestamp": "2026-04-27T17:16:25.345053"
+    }
+  },
+  "forensic_metrics": {
+    "all_metrics": {
+      "TTFS": "0.049696513",
+      "FRSS": 1.0,
+      "CCD": 0.051368969916060436,
+      "EARV": "0.025003724",
+      "FMED": "0.030005366",
+      "GCS": "0.76741964",
+      "MES": "0.21716565",
+      "HFE": 0.8244075028077547
+    },
+    "raw_values": {
+      "TTFS": "0.0298766",
+      "FRSS": 10419.879612758248,
+      "CCD": 0.00013492437100436606,
+      "EARV": "4.7439434e-07",
+      "FMED": "2.9579737e-06",
+      "GCS": "0.21090388",
+      "MES": "1.6716577",
+      "HFE": 3.3928915218431124
+    },
+    "calibrated_values": {
+      "TTFS": "0.049696513",
+      "FRSS": 1.0,
+      "CCD": 0.051368969916060436,
+      "EARV": "0.025003724",
+      "FMED": "0.030005366",
+      "GCS": "0.76741964",
+      "MES": "0.21716565",
+      "HFE": 0.8244075028077547
+    },
+    "ensemble_score": 0.3304010126965321,
+    "stage": {
+      "status": "SUCCESS",
+      "metrics_computed": 8,
+      "forensic_ensemble_score": 0.3304010126965321,
+      "calibration_applied": true,
+      "timestamp": "2026-04-27T17:16:29.831986"
+    }
+  },
+  "frequency_analysis": {
+    "detected": false,
+    "score": 0,
+    "analysis_type": "frequency_domain"
+  },
+  "edge_case_analysis": {
+    "results": [
+      {
+        "detection_method": "OPTICAL_FLOW",
+        "prediction": "FAKE",
+        "confidence": 1.0,
+        "avg_motion_variance": 277.2267216915756,
+        "avg_motion_consistency": 0.0,
+        "frames_analyzed": 9,
+        "processing_time": 0.8068442344665527
+      },
+      {
+        "detection_method": "FREQUENCY_ANALYSIS",
+        "prediction": "BORDERLINE_FAKE",
+        "confidence": 1.0,
+        "avg_high_freq_energy": 0.4968975126743317,
+        "std_high_freq_energy": 0.003361489987115482,
+        "frames_analyzed": 15,
+        "processing_time": 0.36470866203308105
+      }
+    ],
+    "detection_methods": [
+      "OPTICAL_FLOW",
+      "FREQUENCY_ANALYSIS"
+    ],
+    "ensemble_prediction": {
+      "final_prediction": "FAKE",
+      "final_confidence": 0.9835059344768524,
+      "detection_methods": [
+        "CNN",
+        "OPTICAL_FLOW",
+        "FREQUENCY_ANALYSIS"
+      ],
+      "vote_breakdown": {
+        "CNN": {
+          "prediction": "FAKE",
+          "confidence": 0.958764836192131
+        },
+        "OPTICAL_FLOW": {
+          "prediction": "FAKE",
+          "confidence": 1.0
+        },
+        "FREQUENCY_ANALYSIS": {
+          "prediction": "FAKE",
+          "confidence": 1.0
+        }
+      }
+    },
+    "stage": null
+  },
+  "ensemble": {
+    "detection_method": "CNN Primary Classification",
+    "multi_method_confidence": 0.958764836192131,
+    "hybrid_score": 0.958764836192131,
+    "voting_breakdown": {
+      "sliding_window": {
+        "prediction": "FAKE",
+        "confidence": 0.9521634437143802,
+        "weight": 0.25
+      },
+      "cnn_xception5o": {
+        "prediction": "FAKE",
+        "confidence": 0.958764836192131,
+        "weight": 0.35
+      },
+      "forensic_metrics": {
+        "prediction": "REAL",
+        "confidence": 0.3304010126965321,
+        "weight": 0.25
+      },
+      "edge_case_detection": {
+        "prediction": "FAKE",
+        "confidence": 1.0,
+        "weight": 0.15
+      }
+    },
+    "detection_methods_used": [
+      "sliding_window",
+      "cnn_xception5o",
+      "forensic_metrics",
+      "edge_case_detection"
+    ]
+  },
+  "final_result": {
+    "classification": "DEEPFAKE",
+    "detection_method": "CNN Primary Classification",
+    "confidence": 0.958764836192131,
+    "hybrid_score": 0.958764836192131
+  },
+  "errors": []
+}

@@ -1,0 +1,2 @@
+Video,Status,CNN_Prediction,CNN_Confidence,Forensic_Ensemble_Score,Hybrid_Score,Ensemble_Confidence,TTFS,FRSS,CCD,EARV,FMED,GCS,MES,HFE,Final_Classification,Forensic_Explanation
+DF1,SUCCESS,FAKE,0.958765,0.330401,0.958765,0.958765,0.049697,1.000000,0.051369,0.025004,0.030005,0.767420,0.217166,0.824408,DEEPFAKE,"CNN predicts FAKE. Strong forensic indicators: FRSS(1.00), GCS(0.77). "
