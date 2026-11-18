@@ -199,52 +199,16 @@ deployment configuration.
 
 ## System Architecture
 
-At a logical level, TRINETRA is organised into:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6c6cd68c-bf8e-49be-840d-be07cb2bd834" />
 
-1.  **User interface** --- submission workflows, dashboards, and
-    narrative exploration.
-2.  **Application backend** --- request handling, business logic,
-    service coordination, and APIs.
-3.  **Agent and analysis layer** --- task-specific AI agents and
-    modality-oriented analysis components.
-4.  **Data layer** --- analysis records, narrative observations, and
-    historical data.
-5.  **Orchestration layer** --- scheduled jobs and automation workflows,
-    including configured n8n processes.
-6.  **Reporting and output layer** --- dashboards, reports, and
-    configured media-generation workflows.
-
-This is a conceptual architecture. Document exact services, databases,
-model providers, and deployment boundaries from the implementation
-before release.
 
 ## Technology Stack
 
 Update this table to reflect the actual repository and deployed
 versions.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/13373258-0af0-46bd-977f-543f5b0f7cfb" />
 
-  ----------------------------------------------------------------------------------------
-  Layer                               Technology
-  ----------------------------------- ----------------------------------------------------
-  Frontend                            `[Add actual framework and version]`
-
-  Backend / APIs                      `[Add actual framework and version]`
-
-  AI / ML                             `[Add models, frameworks, and inference services]`
-
-  Agent orchestration                 `[Add actual agent framework or implementation]`
-
-  Workflow automation                 n8n
-
-  Database / storage                  `[Add actual database and storage services]`
-
-  Deployment                          `[Add hosting, containers, and CI/CD services]`
-
-  Reporting                           `[Add report-generation tools]`
-  ----------------------------------------------------------------------------------------
-
-**Before publishing:** replace every bracketed placeholder with the
-technologies and versions actually used.
+  
 
 ## Getting Started
 
@@ -327,26 +291,6 @@ Logging, monitoring, and error handling.
     forecasts, and possible resurgence.
 8.  Review generated media and reports before external distribution.
 
-## Conceptual Project Structure
-
-Update this example to match the actual repository.
-
-``` text
-trinetra/
-├── frontend/                  # User interface and dashboards
-├── backend/                   # APIs and application services
-├── agents/                    # Task-specific AI agents
-├── analysis/                  # Media and content analysis
-├── narrative-intelligence/
-│   ├── pulse/                 # Narrative monitoring
-│   └── timesight/             # Temporal analysis and forecasting
-├── workflows/                 # n8n and automation assets
-├── reports/                   # Report-generation components
-├── docs/                      # Architecture and technical documentation
-├── tests/                     # Automated tests
-├── .env.example               # Safe environment template
-└── README.md
-```
 
 ## Responsible Use
 
@@ -363,50 +307,6 @@ not be treated as an autonomous authority on truth.
 -   Secure uploaded content and restrict access to sensitive analysis.
 -   Distinguish observed facts, model predictions, and analyst
     conclusions.
-
-## Limitations
-
--   Detection quality varies with media quality, compression, editing,
-    language, and model coverage.
--   A deepfake score is probabilistic, not definitive proof.
--   Fact verification depends on the quality and recency of available
-    sources.
--   Narrative tracking depends on configured data sources and collection
-    permissions.
--   Forecasts are uncertain and may change as new information becomes
-    available.
--   Scheduled collection can be affected by source outages, API limits,
-    and infrastructure availability.
--   Generated media requires review for accuracy, context, and
-    appropriate disclosure.
-
-## Roadmap
-
-Potential areas for continued development: - Broader modality and
-language coverage. - Stronger evidence traceability and source
-attribution. - Improved model evaluation and benchmark reporting. - More
-robust narrative clustering and lifecycle analysis. - Forecast
-calibration and retrospective evaluation. - Expanded integrations and
-operational monitoring. - Role-based access, audit trails, and
-enterprise deployment controls.
-
-Mark roadmap items as planned, in progress, or released according to
-actual project status.
-
-## Contributing
-
-Contributions, issue reports, and technical feedback are welcome.
-
-1.  Open an issue describing the problem or proposed improvement.
-2.  Discuss significant changes before implementation.
-3.  Create a focused branch.
-4.  Add or update tests where applicable.
-5.  Document configuration or behaviour changes.
-6.  Submit a pull request with a clear summary and validation notes.
-
-Do not include credentials, private datasets, or sensitive user content
-in issues or pull requests.
-
 ## Acknowledgements
 
 TRINETRA was developed as part of the **Unisys Innovation Program ---
@@ -428,12 +328,4 @@ selected license before making the repository publicly reusable.
 
 ------------------------------------------------------------------------
 
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}TRINETRA --- See Truth. Stop
-Misinformation.`</strong>`{=html}`<br/>`{=html} `<em>`{=html}Built for a
-safer, smarter digital world.`</em>`{=html}
-```{=html}
-</p>
-```
+
